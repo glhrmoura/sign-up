@@ -7,7 +7,7 @@
 
 # Sign Up
 
-A user interface divided into stages with the aim of facilitating the registration flow, using some animations and a simplified layout to make the process more user-friendly.
+Application that simulates a user registration through a step-by-step approach. Information is collected in separate steps, ensuring that all necessary information is provided before completing the registration, and also relying on data validation to ensure the integrity of the information provided by the user. The user-friendly and easy-to-navigate interface makes the user experience enjoyable and hassle-free.
 
 ## Tools
 
