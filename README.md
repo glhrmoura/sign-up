@@ -5,9 +5,9 @@
 	/>
 </p>
 
-# :key: Sign Up
+# Sign Up
 
-A user registration interface, divided into stages. The project was developed mainly with React, Styled Components and TypeScript.
+A user interface divided into stages with the aim of facilitating the registration flow, using some animations and a simplified layout to make the process more user-friendly.
 
 ## Tools
 
