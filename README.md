@@ -19,7 +19,7 @@ A user interface divided into stages with the aim of facilitating the registrati
 
 ## Demo
 
-[**Sign Up**](https://gleeful-pothos-bcad92.netlify.app)
+[**Sign Up**](https://capable-kulfi-3d8c43.netlify.app)
 
 ## Setup
 
