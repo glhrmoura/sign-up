@@ -7,7 +7,7 @@
 
 # :key: Sign Up
 
-Development project of a user registration interface, divided into stages. The project was developed mainly with React, Styled Components and TypeScript.
+A user registration interface, divided into stages. The project was developed mainly with React, Styled Components and TypeScript.
 
 ## Tools
 
