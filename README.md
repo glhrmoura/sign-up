@@ -23,7 +23,7 @@ Application that simulates a user registration through a step-by-step approach. 
 
 ## Setup
 
-### Install dependencies
+### Install
 
 ```
 yarn install
