@@ -1,7 +1,7 @@
 <p align="center">
   <img
 		style="object: contain; height: 150px"
-		src="https://raw.githubusercontent.com/glhrmoura/sign-up/main/static/images/logo.png"
+		src="https://raw.githubusercontent.com/glhrmoura/sign-up/main/src/static/images/logo.png"
 	/>
 </p>
 
