@@ -1,12 +1,13 @@
 import React, { ButtonHTMLAttributes } from 'react';
 
+import { Condition, If, Else } from '@glhrmoura/react-conditional';
+
 import {
   ButtonElement,
   LoaderContainer,
 } from './styles';
 
 import LoadIcon from '@/components/LoadIcon';
-import Conditional, { If, Else } from '@/components/Conditional';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   block?: boolean;
@@ -24,17 +25,16 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <ButtonElement {...props} block={block} variant={variant}>
-      <Conditional>
-        <If cond={loading}>
+      <Condition>
+        <If condition={loading}>
           <LoaderContainer>
             <LoadIcon />
           </LoaderContainer>
         </If>
-
         <Else>
           {children || title}
         </Else>
-      </Conditional>
+      </Condition>
     </ButtonElement>
   );
 };

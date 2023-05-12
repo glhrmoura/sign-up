@@ -1238,6 +1238,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@glhrmoura/react-conditional@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@glhrmoura/react-conditional/-/react-conditional-0.1.1.tgz#f656a8e913581ee494ce6ab015526b7a0c83821c"
+  integrity sha512-IQKMHmf0DvEGHCmsKbd26CFI0t129JppcaSdpK/jhxY8KS3qJFkuCY5UjxuBuGkeNqOIjgEzBjhCgDDFaz6e/g==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import * as Yup from 'yup';
 import { Formik } from 'formik';
+import { Condition, If, ElseIf } from '@glhrmoura/react-conditional';
 
 import {
   Title,
@@ -14,12 +15,9 @@ import {
 
 import { User } from '@/types/user';
 
-import Conditional, { If, ElseIf } from '@/components/Conditional';
 import CompletedPhase from '@/components/SignUp/components/CompletedPhase';
 import NameAndAgePhase from '@/components/SignUp/components/NameAndAgePhase';
 import EmailAndNewsletterPhase from '@/components/SignUp/components/EmailAndNewsletterPhase';
-
-
 
 const signupSchema = Yup.object().shape({
   name: Yup.string()
@@ -120,8 +118,8 @@ const SignUp: React.FC = () => {
             </PhasesContainer>
 
             <ButtonContainer>
-              <Conditional>
-                <If cond={isNotFirstPhase && isNotLastPhase}>
+              <Condition>
+                <If condition={isNotFirstPhase && isNotLastPhase}>
                   <LeftButton
                     title="Back"
                     variant="ghost"
@@ -129,10 +127,10 @@ const SignUp: React.FC = () => {
                     disabled={loading}
                   />
                 </If>
-              </Conditional>
+              </Condition>
               
-              <Conditional>
-                <If cond={isBeforeLastPhase}>
+              <Condition>
+                <If condition={isBeforeLastPhase}>
                   <RightButton
                     title="Create account"
                     variant="ghost"
@@ -141,8 +139,7 @@ const SignUp: React.FC = () => {
                     disabled={!dirty || hasErrors(errors) || loading}
                   />
                 </If>
-
-                <ElseIf cond={isNotLastPhase}>
+                <ElseIf condition={isNotLastPhase}>
                   <RightButton
                     title="Next"
                     variant="ghost"
@@ -150,7 +147,7 @@ const SignUp: React.FC = () => {
                     disabled={!dirty || hasErrors(errors) || loading}
                   />
                 </ElseIf>
-              </Conditional>
+              </Condition>
             </ButtonContainer>
           </>
         )}
