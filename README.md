@@ -21,20 +21,6 @@ Application that simulates a user registration through a step-by-step approach. 
 - Formik
 - Yup
 
-### Setup
-
-#### Install
-
-```
-yarn install
-```
-
-#### Run
-
-```
-yarn start
-```
-
 ### License
 
 [MIT](https://github.com/glhrmoura/sign-up/blob/main/LICENSE)
